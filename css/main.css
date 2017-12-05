@@ -1,0 +1,293 @@
+/* Los estilos de tu proyecto */
+
+body {
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.row {
+    margin: 0px;
+    padding: 0;
+}
+
+.glyphicon-menu-hamburger {
+    font-size: 2em;
+    border: 0.05em #EEEEEE solid;
+    border-radius: 5%;
+    padding: 0.2em;
+    color: #9E9E9E;
+}
+
+.col-xs-9 {
+    padding-left: 6em;
+    margin: 0;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    color: #555;
+    background-color: white;
+}
+
+.navbar-default {
+    background-color: white;
+    border-color: white;
+}
+
+.logoOne {
+    padding-top: 4em;
+}
+
+img[src="assets/images/logoForma.png"] {
+    width: 8em;
+}
+
+img[src="assets/images/taxi.jpg"] {
+    width: 100%;
+}
+
+.imgBackOne {
+    background: url(../assets/images/taxi.jpg) no-repeat center bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* display: block; */
+    height: 100vh;
+    /* position: relative; */
+    padding-top: 25vh;
+}
+
+.imgBackTwo {
+    background: url(../assets/images/conduce.jpg) no-repeat center bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* display: block; */
+    height: 100vh;
+    /* position: relative; */
+    padding-top: 25vh;
+    filter: brightness(0.4);
+}
+
+.bgImageTaxi {
+    margin: 0px;
+}
+
+.imgBackOne .bgImageConduce {
+    background: url(../assets/images/conduce.jpg) no-repeat center bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* display: block; */
+    height: 100vh;
+    /* position: relative; */
+    padding-top: 25vh;
+}
+
+.imageOnly {
+    z-index: -10;
+    margin-right: 0%;
+    width: 100%;
+}
+
+h1:nth-child(2) {
+    display: inline;
+}
+
+.boxOrange {
+    background-color: #EEB300;
+    /* position: absolute; */
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    /* left: 25%;
+    right: 0%;
+    z-index: 10; */
+}
+
+.boxTransparent {
+    /* position: absolute; */
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    /* left: 25%;
+  right: 0%;
+  z-index: 10; */
+}
+
+.boxConduce {
+    /* background-color: #EEB300; */
+    /* position: absolute; */
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    /* left: 25%;
+  right: 0%;
+  z-index: 10; */
+    color: white;
+}
+
+.LMediana {
+    font-size: 2em;
+}
+
+.bgPhone {
+    background-color: #EEB300;
+}
+
+button {
+    display: block;
+    margin-top: 2em;
+}
+
+.naranja {
+    background-color: #EEB300;
+    text-align: center;
+    padding: 1em;
+    margin: 0;
+}
+
+img[src="assets/images/iPhone6Plus.png"] {
+    width: 100%;
+    padding: 3em;
+    padding-top: 0;
+    padding-bottom: 1em;
+}
+
+.pCellPhone {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: white;
+}
+
+.pImage {
+    border: 0.2em white solid;
+    padding-top: 2em;
+}
+
+.parrafos {
+    padding: 2em;
+}
+
+.backOrange {
+    background-color: #EEB300;
+}
+
+.titulo {
+    font-size: 1.8em;
+    color: white;
+    font-weight: bold;
+}
+
+.OtrotextosConsulta {
+    font-size: 1.4em;
+    color: white;
+    display: inline;
+}
+
+span {
+    color: white;
+}
+
+.colorWhite {
+    color: white;
+}
+
+.pPie {
+    color: white;
+    padding-top: 1.2em;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.small {
+    font-size: 1.4em;
+    margin-bottom: -1em;
+}
+
+.btn-warning {
+    font-size: 1.3em;
+}
+
+.textosNaranja {
+    text-align: left;
+    color: white;
+}
+
+.btn-default {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.botonDefault {
+    text-align: center;
+}
+
+.tarifas {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 4em;
+}
+
+.consulta {
+    font-size: 1.5em;
+}
+
+.bordeParrafo {
+    border: 0.1em white solid;
+    padding: 0.5em;
+    border-radius: 10px;
+    font-size: 0.9em;
+    width: 28em;
+    margin-left: 3em;
+}
+
+.pBold {
+    font-weight: bold;
+    padding-bottom: 4em;
+}
+
+iframe {
+    border: 0.1em white solid;
+    padding: 0.5em;
+}
+
+.mapa {
+    text-align: left;
+}
+
+.backBlack {
+    background-color: #2F2F2F;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+i {
+    display: inline;
+    color: white;
+}
+
+ul li {
+    float: left;
+}
+
+li {
+    padding: 0.5em;
+}
+
+.imagenesBadge {
+    padding-left: 3em;
+    padding-top: 2em;
+    width: 70%;
+}
+
+.navbar-nav {
+    z-index: 1000;
+}
